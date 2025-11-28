@@ -2,7 +2,6 @@ import torch,open_clip,os
 from PIL import Image
 from tqdm import tqdm
 
-
 IMAGE_DIR = "data/images"
 OUTPUT_PATH = "data/image_index.pt"
 MODEL_PATH = "model.pt"
