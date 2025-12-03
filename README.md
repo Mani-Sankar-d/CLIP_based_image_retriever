@@ -26,7 +26,7 @@ Dataset: Oxford-IIIT Pet Dataset
  via Hugging Face datasets
 
 Hardware: 4GB GPU compatible
-
+<pre><code>
 🧩 Repository Structure
 CLIP_based_image_retriever/
 │
@@ -47,6 +47,7 @@ CLIP_based_image_retriever/
 │   └── image_index.pt       # Saved image embeddings
 │
 └── README.md
+</code></pre>
 
 ⚙️ Setup
 1️⃣ Clone the repository
