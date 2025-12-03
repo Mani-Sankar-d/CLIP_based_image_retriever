@@ -65,13 +65,13 @@ python test_data.py
 
 
 This creates a folder:
-
+<pre><code>
 data/images/
 ├── 0_1.jpg
 ├── 1_3.jpg
 ├── 2_7.jpg
 ...
-
+</code></pre>
 🧮 Build the Image Index
 
 Next, encode the images using CLIP to create a searchable vector store:
@@ -142,6 +142,9 @@ Hugging Face Datasets — Data loading
 Uvicorn — App server
 
 📁 Required Structure Before Running
+<pre><code>
 data/
 ├── images/          # from test_data.py
-└── image_index.pt   # from build_index.py
+└── image_index.pt   # from build_index.py 
+</code></pre>
+
